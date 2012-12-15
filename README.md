@@ -6,15 +6,11 @@ Grabs movie posters
 
 Add this line to your application's Gemfile:
 
-    gem 'can_haz_poster'
+    gem 'can_haz_poster', github: 'RKushnir/can_haz_poster'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install can_haz_poster
 
 ## Usage
 
