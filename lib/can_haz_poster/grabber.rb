@@ -12,6 +12,8 @@ module CanHazPoster
       parse_poster_url(fetch_movie_page(movie_url))
     end
 
+  private
+
     def fetch_search_results(title)
       open(SERVICE_HOST + SEARCH_PATH % {query: URI.encode_www_form_component(title)})
     end
