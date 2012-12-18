@@ -25,7 +25,8 @@ module CanHazPoster
     def parse_movie_url(page, year)
       doc = Nokogiri::HTML(page)
       cell = doc.css('.content td:nth-child(2)').find do |cell|
-        cell.css('span b').first.content == year.to_s
+        year_span = cell.css('span b').first
+        year_span && year_span.content == year.to_s
       end
 
       raise MovieNotFoundError if cell.nil?
