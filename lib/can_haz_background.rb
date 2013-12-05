@@ -10,5 +10,5 @@ module CanHazBackground
   end
 end
 
-CanHazBackground.grab_bg('The Matrix', 1999)
+
 
