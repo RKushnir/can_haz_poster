@@ -4,6 +4,7 @@ require 'nokogiri'
 
 module CanHazPoster
   class Grabber
+
     SERVICE_HOST = "http://www.movieposterdb.com"
     SEARCH_PATH = "/search/?query=%{query}"
 
