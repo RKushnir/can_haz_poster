@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b08c4163-ead9-474a-8bff-45e550b904cb" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/version.rb" afterPath="$PROJECT_DIR$/lib/can_haz_poster/version.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/can_haz_poster.gemspec" afterPath="$PROJECT_DIR$/can_haz_poster.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/can_haz_poster.rb" afterPath="$PROJECT_DIR$/lib/can_haz_poster.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="can_haz_background.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,19 +35,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="grabber_background.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="grabber_background.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/can_haz_background/grabber_background.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.0">
+            <state line="49" column="0" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.896">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="can_haz_background.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="can_haz_background.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/can_haz_background.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.18285714">
+            <state line="10" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/can_haz_poster/grabber_background.rb" />
         <option value="$PROJECT_DIR$/lib/can_haz_poster/grabber.rb" />
         <option value="$PROJECT_DIR$/spec/fixtures/bg_search_movie.html" />
         <option value="$PROJECT_DIR$/lib/can_haz_background/back.rb" />
@@ -90,6 +86,7 @@
         <option value="$PROJECT_DIR$/can_haz_poster.gemspec" />
         <option value="$PROJECT_DIR$/lib/can_haz_poster.rb" />
         <option value="$PROJECT_DIR$/lib/can_haz_background.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -190,6 +187,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="can_haz_background" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="can_haz_background" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="can_haz_poster" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -390,13 +405,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/fixtures/search_results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE.txt">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -659,23 +667,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/can_haz_poster/grabber.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="32" selection-start="836" selection-end="836" vertical-scroll-proportion="0.60342854">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/can_haz_background/grabber_background.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/can_haz_poster.gemspec">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="2" selection-start="680" selection-end="680" vertical-scroll-proportion="0.30082256">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/can_haz_background.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -687,9 +688,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/can_haz_background.rb">
+    <entry file="file://$PROJECT_DIR$/lib/can_haz_poster/grabber.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.18285714">
+        <state line="33" column="32" selection-start="836" selection-end="836" vertical-scroll-proportion="0.60342854">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="6" selection-start="167" selection-end="167" vertical-scroll-proportion="0.3243243">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/can_haz_background/grabber_background.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.896">
           <folding />
         </state>
       </provider>
