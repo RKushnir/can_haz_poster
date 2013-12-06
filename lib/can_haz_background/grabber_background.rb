@@ -19,10 +19,6 @@ module CanHazBackground
       open(SERVICE_HOST + SEARCH_PATH % {query: URI.encode_www_form_component(title)})
     end
 
-    def fetch_movie_page(url)
-      open(url)
-    end
-
     def parse_movie_url(page, year)
       doc = Nokogiri::HTML(page)
       cell = doc.css('.search_results.movie .info').find do |cell|
@@ -45,9 +41,11 @@ module CanHazBackground
       doc = Nokogiri::HTML(open(url_bg))
       bg_arr = []
       doc.css('#backdrops .delete').each do |link|
-        bg_arr << link.css('a.lightbox').attr('href')
+        bg_arr << link.css('a.lightbox').attr('href').text
       end
       bg_arr
     end
   end
 end
+#bg = GrabberBackground.new
+#bg.grab_bg('The Silence of the Lambs', 1991)
