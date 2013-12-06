@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7880cd7-e40c-4f9a-a2b6-9951dbbbc675" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="can_haz_background.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b7880cd7-e40c-4f9a-a2b6-9951dbbbc675" time="1386343456844" ignored="false" />
+    <file path="/Dummy.txt" changelist="b7880cd7-e40c-4f9a-a2b6-9951dbbbc675" time="1386343803026" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="integration_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/integration_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="54" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.5485714">
+            <state line="30" column="54" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.5423729">
               <folding />
             </state>
           </provider>
@@ -69,10 +69,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
-    <option name="y" value="85" />
+    <option name="x" value="66" />
+    <option name="y" value="52" />
     <option name="width" value="927" />
-    <option name="height" value="1017" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -100,7 +100,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -149,6 +148,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,14 +168,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="85" width="927" height="1017" extended-state="0" />
-    <editor active="true" />
+    <frame x="66" y="52" width="927" height="1027" extended-state="4" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25655645" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26339796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -265,6 +265,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/integration_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/can_haz_background.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="32" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/can_haz_background.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="32" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
@@ -274,14 +288,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="30" selection-start="169" selection-end="169" vertical-scroll-proportion="0.34234235">
-          <folding />
-        </state>
+        <state line="19" column="30" selection-start="169" selection-end="169" vertical-scroll-proportion="0.34234235" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/integration_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="54" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.5485714">
+        <state line="30" column="54" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.5423729">
           <folding />
         </state>
       </provider>
