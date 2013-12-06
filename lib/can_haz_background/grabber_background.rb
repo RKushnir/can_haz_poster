@@ -47,5 +47,3 @@ module CanHazBackground
     end
   end
 end
-#bg = GrabberBackground.new
-#bg.grab_bg('The Silence of the Lambs', 1991)
