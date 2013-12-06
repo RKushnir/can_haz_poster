@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b08c4163-ead9-474a-8bff-45e550b904cb" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/can_haz_poster/version.rb" afterPath="$PROJECT_DIR$/lib/version.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/can_haz_background.iml" afterPath="$PROJECT_DIR$/.idea/can_haz_background.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/can_haz_background.rb" afterPath="$PROJECT_DIR$/lib/can_haz_background.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/version.rb" afterPath="$PROJECT_DIR$/lib/can_haz_poster/version.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/can_haz_poster.gemspec" afterPath="$PROJECT_DIR$/can_haz_poster.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/can_haz_background/grabber_background.rb" afterPath="$PROJECT_DIR$/lib/can_haz_background/grabber_background.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/integration_spec.rb" afterPath="$PROJECT_DIR$/spec/integration_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/can_haz_poster.rb" afterPath="$PROJECT_DIR$/lib/can_haz_poster.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="can_haz_background.iws" />
@@ -53,25 +50,7 @@
       <file leaf-file-name="can_haz_background.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/can_haz_background.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.1880141">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="can_haz_poster.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/can_haz_poster.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="can_haz_poster.gemspec" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/can_haz_poster.gemspec">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="3" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.18285714">
               <folding />
             </state>
           </provider>
@@ -226,6 +205,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/can_haz_poster" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/spec/fixtures" />
       <recent name="$PROJECT_DIR$/lib/can_haz_background" />
@@ -640,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/can_haz_background/grabber_background.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/fixtures/bg_collection.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="648" column="14" selection-start="25109" selection-end="25109" vertical-scroll-proportion="1.0235294">
@@ -693,23 +666,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/can_haz_poster.rb">
+    <entry file="file://$PROJECT_DIR$/lib/can_haz_background/grabber_background.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+        <state line="49" column="0" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/can_haz_poster.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
+        <state line="16" column="2" selection-start="680" selection-end="680" vertical-scroll-proportion="0.30082256">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/can_haz_poster.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="36" selection-start="239" selection-end="239" vertical-scroll-proportion="0.23423423">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/can_haz_background.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.1880141">
+        <state line="10" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.18285714">
           <folding />
         </state>
       </provider>

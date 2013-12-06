@@ -7,7 +7,7 @@ module CanHazPoster
 
   def self.grab_poster(title, year)
     Grabber.new.grab_poster(title, year)
-    end
+  end
 end
 
 
