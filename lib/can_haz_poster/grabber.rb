@@ -48,7 +48,7 @@ module CanHazPoster
 
     def grab_bg(title, year)
       movie_url = parse_movie_url(fetch_search_results(title), year)
-      parse_bg_url(movie_url)
+      parse_bg_url(movie_url).join(' ')
     end
 
     private
@@ -73,7 +73,7 @@ module CanHazPoster
       doc = Nokogiri::HTML(open(page))                                                                # requested movie
       show_all_bg = SERVICE_HOST + doc.css('#mainCol h3:nth-child(17) > a:nth-child(3)').attr('href') # link to "Show All"
       movie_bg_list = Nokogiri::HTML(open(show_all_bg))                                               # "Show All" - page with all backgrounds for movie
-      url_bg = movie_bg_list.css('script:nth-child(7)').text.scan(/url: '(.*)'/).last.first           # get link of bg collection inside script
+      url_bg = movie_bg_list.css('script:nth-child(7)').text.scan(/url: '(.*)'/).last.join(' ')           # get link of bg collection inside script
 
       url_bg = SERVICE_HOST + url_bg
 
