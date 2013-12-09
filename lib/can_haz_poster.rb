@@ -14,5 +14,3 @@ module CanHazPoster
     GrabberBackground.new.grab_bg(title, year)
   end
 end
-
-

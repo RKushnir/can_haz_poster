@@ -1,6 +1,5 @@
 require 'spec_helper'
 require 'can_haz_poster'
-require 'can_haz_background'
 
 describe CanHazPoster::Grabber do
   before do
@@ -19,7 +18,7 @@ describe CanHazPoster::Grabber do
 end
 
 
-describe CanHazBackground::GrabberBackground do
+describe CanHazPoster::GrabberBackground do
   before do
     stub_http_request(:get, "https://www.themoviedb.org/search?query=The%20Matrix").
       to_return(body: File.new('spec/fixtures/bg_search_result.html'), status: 200)
