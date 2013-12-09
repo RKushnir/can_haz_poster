@@ -11,7 +11,7 @@ module CanHazPoster
   end
 
   def self.grab_bg(title, year)
-    GrabberBackground.new.grab_bg(year, title)
+    GrabberBackground.new.grab_bg(title, year)
   end
 end
 
