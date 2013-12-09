@@ -82,7 +82,7 @@ module CanHazPoster
       doc.css('#backdrops .delete').each do |link|
         bg_arr << link.css('a.lightbox').attr('href').text
       end
-      bg_arr
+      #bg_arr
     end
   end
 end
