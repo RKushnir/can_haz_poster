@@ -48,7 +48,7 @@ module CanHazPoster
 
     def grab_bg(title, year)
       movie_url = parse_movie_url(fetch_search_results(title), year)
-      parse_bg_url(movie_url).join(' ')
+      parse_bg_url(movie_url)
     end
 
     private
