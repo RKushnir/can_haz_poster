@@ -4,7 +4,7 @@ module CanHazPoster
   MovieNotFoundError = Class.new(StandardError)
 
   autoload :Grabber, 'can_haz_poster/grabber'
-  autoload :GrabberBackground, 'can_haz_background/grabber_background'
+  autoload :GrabberBackground, 'can_haz_poster/grabber'
 
   def self.grab_poster(title, year)
     Grabber.new.grab_poster(title, year)
