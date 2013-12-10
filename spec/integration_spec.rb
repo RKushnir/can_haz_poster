@@ -21,7 +21,13 @@ describe CanHazPoster::GrabberBackground do
   before do
     stub_http_request(:get, "https://www.themoviedb.org/search?query=The%20Matrix").
       to_return(body: File.new('spec/fixtures/bg_search_result.html'), status: 200)
-
+    
+    stub_http_request(:get, "https://www.themoviedb.org/movie/603-the-matrix").
+       to_return(body: File.new('spec/fixtures/bg_movie_page.html'), status: 200)
+ 
+    stub_http_request(:get, "https://www.themoviedb.org/movie/603-the-matrix/backdrops").
+       to_return(body: File.new('spec/fixtures/bg_show_all.html'), status: 200)
+    
     stub_http_request(:get, "https://www.themoviedb.org/movie/603-the-matrix/images?kind=backdrop&language=&translate=false").
       to_return(body: File.new('spec/fixtures/bg_collection.html'), status: 200)
   end
