@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'can_haz_poster'
 
-describe CanHazPoster::Grabber do
+describe CanHazPoster::PosterGrabber do
   before do
     stub_http_request(:get, "http://www.movieposterdb.com/search/").
       with(query: {query: "Casino Royale"}).
@@ -17,23 +17,17 @@ describe CanHazPoster::Grabber do
   end
 end
 
-describe CanHazPoster::GrabberBackground do
+describe CanHazPoster::BackdropGrabber do
   before do
     stub_http_request(:get, "https://www.themoviedb.org/search?query=The%20Matrix").
-      to_return(body: File.new('spec/fixtures/bg_search_result.html'), status: 200)
+      to_return(body: File.new('spec/fixtures/bd_search_result.html'), status: 200)
 
-    stub_http_request(:get, "https://www.themoviedb.org/movie/603-the-matrix").
-      to_return(body: File.new('spec/fixtures/bg_movie_page.html'), status: 200)
-
-    stub_http_request(:get, "https://www.themoviedb.org/movie/603-the-matrix/backdrops").
-      to_return(body: File.new('spec/fixtures/bg_show_all.html'), status: 200)
-
-    stub_http_request(:get, "https://www.themoviedb.org/movie/603-the-matrix/images?kind=backdrop&language=&translate=false").
-      to_return(body: File.new('spec/fixtures/bg_collection.html'), status: 200)
+    stub_http_request(:get, "https://www.themoviedb.org/movie/603-the-matrix/images?kind=backdrop").
+      to_return(body: File.new('spec/fixtures/bd_collection.html'), status: 200)
   end
 
-  it "finds movie background by title and year" do
-    background = subject.grab_bg("The Matrix", 1999)
+  it "finds movie backdrop by title and year" do
+    background = subject.grab_backdrop("The Matrix", 1999)
     background.should include("https://d3gtl9l2a4fn1j.cloudfront.net/t/p/original/7u3pxc0K1wx32IleAkLv78MKgrw.jpg")
   end
 end
