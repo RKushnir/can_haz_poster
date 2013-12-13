@@ -24,7 +24,7 @@ describe CanHazPoster::BackdropGrabber do
 
     stub_http_request(:get, "https://www.themoviedb.org/movie/603-the-matrix/images?kind=backdrop").
       to_return(body: File.new('spec/fixtures/bd_collection.html'), status: 200)
-
+  end
 
   it "finds movie backdrop by title and year" do
     background = subject.grab_backdrop("The Matrix", 1999)
