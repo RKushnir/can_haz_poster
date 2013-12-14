@@ -3,7 +3,7 @@ require 'net/http'
 require 'nokogiri'
 
 module CanHazPoster
-  class Grabber
+  class PosterGrabber
     SERVICE_HOST = "http://www.movieposterdb.com"
     SEARCH_PATH = "/search/?query=%{query}"
 
