@@ -3,7 +3,7 @@ require 'net/http'
 require 'nokogiri'
 
 module CanHazPoster
-  class Grabber
+  class PosterGrabber
     SERVICE_HOST = "http://www.movieposterdb.com"
     SEARCH_PATH = "/search/?query=%{query}"
 
@@ -25,18 +25,18 @@ module CanHazPoster
     def parse_movie_url(page, year)
       doc = Nokogiri::HTML(page)
       cell = doc.css('.content td:nth-child(2)').find do |cell|
-        year_span = cell.css('span b').first
-        year_span && year_span.content == year.to_s
+        year_node = cell.at_css('span b')
+        year_node && year_node.content == year.to_s
       end
 
       raise MovieNotFoundError if cell.nil?
 
-      SERVICE_HOST + cell.css('a').first['href']
+      SERVICE_HOST + cell.at_css('a')['href']
     end
 
     def parse_poster_url(page)
       doc = Nokogiri::HTML(page)
-      doc.css('.poster a > img').first['data-original']
+      doc.at_css('.poster a > img')['data-original']
     end
   end
 end

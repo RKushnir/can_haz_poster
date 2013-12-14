@@ -3,9 +3,14 @@ require "can_haz_poster/version"
 module CanHazPoster
   MovieNotFoundError = Class.new(StandardError)
 
-  autoload :Grabber, 'can_haz_poster/grabber'
+  autoload :PosterGrabber,   'can_haz_poster/poster_grabber'
+  autoload :BackdropGrabber, 'can_haz_poster/backdrop_grabber'
 
   def self.grab_poster(title, year)
-    Grabber.new.grab_poster(title, year)
+    PosterGrabber.new.grab_poster(title, year)
+  end
+
+  def self.grab_backdrops(title, year)
+    BackdropGrabber.new.grab_backdrops(title, year)
   end
 end
