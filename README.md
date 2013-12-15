@@ -19,6 +19,9 @@ CanHazPoster.grab_poster('Casino Royale', 2006)
 CanHazPoster.grab_backdrops('The Matrix', 1999)
 ```
 
+## Contributors
+Thanks to Artur([@yozzz](https://github.com/yozzz)) for adding the backdrops grabber.
+
 ## Contributing
 
 1. Fork it
