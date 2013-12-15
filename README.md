@@ -14,7 +14,10 @@ And then execute:
 
 ## Usage
 
-`CanHazPoster.grab_poster('Casino Royale', 2006)`
+```ruby
+CanHazPoster.grab_poster('Casino Royale', 2006)
+CanHazPoster.grab_backdrops('The Matrix', 1999)
+```
 
 ## Contributing
 
