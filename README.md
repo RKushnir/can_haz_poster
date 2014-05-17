@@ -16,6 +16,8 @@ And then execute:
 
 ```ruby
 CanHazPoster.grab_poster('Casino Royale', 2006)
+CanHazPoster.grab_poster_by_imdb('0381061')
+
 CanHazPoster.grab_backdrops('The Matrix', 1999)
 ```
 
