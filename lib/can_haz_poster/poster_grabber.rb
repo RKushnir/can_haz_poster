@@ -6,9 +6,15 @@ module CanHazPoster
   class PosterGrabber
     SERVICE_HOST = "http://www.movieposterdb.com"
     SEARCH_PATH = "/search/?query=%{query}"
+    MOVIE_PATH = "/movie/%{id}"
 
     def grab_poster(title, year)
       movie_url = parse_movie_url(fetch_search_results(title), year)
+      parse_poster_url(fetch_movie_page(movie_url))
+    end
+
+    def grab_poster_by_imdb(imdb_id)
+      movie_url = SERVICE_HOST + MOVIE_PATH % {id: imdb_id}
       parse_poster_url(fetch_movie_page(movie_url))
     end
 

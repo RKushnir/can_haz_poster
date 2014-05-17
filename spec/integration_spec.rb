@@ -14,10 +14,17 @@ describe CanHazPoster do
 
       stub_http_request(:get, "http://www.movieposterdb.com/movie/0381061/Casino-Royale.html").
         to_return(body: fixture('movie_page.html'))
+
+      stub_http_request(:get, "http://www.movieposterdb.com/movie/0381061").
+        to_return(body: fixture('movie_page_imdb.html'))
     end
 
     it "finds movie poster by title and year" do
       expect(grabber.grab_poster("Casino Royale", 2006)).to eq(poster_url)
+    end
+
+    it "finds movie poster by imdb ID" do
+      expect(grabber.grab_poster_by_imdb('0381061')).to eq(poster_url)
     end
   end
 
