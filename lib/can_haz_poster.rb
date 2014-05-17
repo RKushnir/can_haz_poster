@@ -10,6 +10,10 @@ module CanHazPoster
     PosterGrabber.new.grab_poster(title, year)
   end
 
+  def self.grab_poster_by_imdb(imdb_id)
+    PosterGrabber.new.grab_poster_by_imdb(imdb_id)
+  end
+
   def self.grab_backdrops(title, year)
     BackdropGrabber.new.grab_backdrops(title, year)
   end
