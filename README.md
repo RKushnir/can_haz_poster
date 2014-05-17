@@ -23,6 +23,7 @@ CanHazPoster.grab_backdrops('The Matrix', 1999)
 
 ## Contributors
 Thanks to Artur([@yozzz](https://github.com/yozzz)) for adding the backdrops grabber.
+Thanks to Pedro Gaspar([@pgaspar](https://github.com/pgaspar)) for adding support for IMDb id.
 
 ## Contributing
 
