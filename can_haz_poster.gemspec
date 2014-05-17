@@ -16,8 +16,8 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_runtime_dependency "nokogiri", "~> 1.5.5"
-  gem.add_development_dependency 'rspec', '~> 2.12.0'
-  gem.add_development_dependency 'rake', '~> 10.0.3'
-  gem.add_development_dependency 'webmock', '~> 1.9.0'
+  gem.add_runtime_dependency 'nokogiri', '~> 1.5', '>= 1.5.5'
+  gem.add_development_dependency 'rspec', '~> 2.12', '>= 2.12.0'
+  gem.add_development_dependency 'rake', '~> 10.0', '>= 10.0.3'
+  gem.add_development_dependency 'webmock', '~> 1.9', '>= 1.9.0'
 end
